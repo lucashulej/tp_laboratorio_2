@@ -21,3 +21,16 @@ C:\Users\Lucas\Documents\Tps Laboratorio 2\TP1\MiCalculadora\obj\Debug\MiCalcula
 C:\Users\Lucas\Documents\Tps Laboratorio 2\TP1\MiCalculadora\bin\Debug\Entidades.dll
 C:\Users\Lucas\Documents\Tps Laboratorio 2\TP1\MiCalculadora\bin\Debug\Entidades.pdb
 C:\Users\Lucas\Documents\Tps Laboratorio 2\TP1\MiCalculadora\obj\Debug\MiCalculadora.csproj.CopyComplete
+C:\Users\Lucas\Desktop\tp_laboratorio_2\Hulej.Lucas.2°A.TP1\MiCalculadora\bin\Debug\MiCalculadora.exe.config
+C:\Users\Lucas\Desktop\tp_laboratorio_2\Hulej.Lucas.2°A.TP1\MiCalculadora\bin\Debug\MiCalculadora.exe
+C:\Users\Lucas\Desktop\tp_laboratorio_2\Hulej.Lucas.2°A.TP1\MiCalculadora\bin\Debug\MiCalculadora.pdb
+C:\Users\Lucas\Desktop\tp_laboratorio_2\Hulej.Lucas.2°A.TP1\MiCalculadora\bin\Debug\Entidades.dll
+C:\Users\Lucas\Desktop\tp_laboratorio_2\Hulej.Lucas.2°A.TP1\MiCalculadora\bin\Debug\Entidades.pdb
+C:\Users\Lucas\Desktop\tp_laboratorio_2\Hulej.Lucas.2°A.TP1\MiCalculadora\obj\Debug\MiCalculadora.csprojAssemblyReference.cache
+C:\Users\Lucas\Desktop\tp_laboratorio_2\Hulej.Lucas.2°A.TP1\MiCalculadora\obj\Debug\MiCalculadora.FormCalculadora.resources
+C:\Users\Lucas\Desktop\tp_laboratorio_2\Hulej.Lucas.2°A.TP1\MiCalculadora\obj\Debug\MiCalculadora.Properties.Resources.resources
+C:\Users\Lucas\Desktop\tp_laboratorio_2\Hulej.Lucas.2°A.TP1\MiCalculadora\obj\Debug\MiCalculadora.csproj.GenerateResource.cache
+C:\Users\Lucas\Desktop\tp_laboratorio_2\Hulej.Lucas.2°A.TP1\MiCalculadora\obj\Debug\MiCalculadora.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\Desktop\tp_laboratorio_2\Hulej.Lucas.2°A.TP1\MiCalculadora\obj\Debug\MiCalculadora.csproj.CopyComplete
+C:\Users\Lucas\Desktop\tp_laboratorio_2\Hulej.Lucas.2°A.TP1\MiCalculadora\obj\Debug\MiCalculadora.exe
+C:\Users\Lucas\Desktop\tp_laboratorio_2\Hulej.Lucas.2°A.TP1\MiCalculadora\obj\Debug\MiCalculadora.pdb
