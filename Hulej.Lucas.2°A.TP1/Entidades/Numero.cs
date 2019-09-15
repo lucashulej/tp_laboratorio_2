@@ -75,7 +75,7 @@ namespace Entidades
 
             numeroInt = (int)numero;
 
-            if (numeroInt >= 0)
+            if (numeroInt > 0)
             {
                 while (numeroInt > 0)
                 {
@@ -89,6 +89,10 @@ namespace Entidades
                   
                     numeroInt = numeroInt / 2;
                 }
+            }
+            else if( numeroInt == 0)
+            {
+                binario = "0";
             }
             else
                 binario = "Valor invalido";

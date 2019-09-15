@@ -10,3 +10,9 @@ C:\Users\Lucas\Documents\Tps Laboratorio 2\TP1\Entidades\obj\Debug\Entidades.csp
 C:\Users\Lucas\Documents\Tps Laboratorio 2\TP1\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\Lucas\Documents\Tps Laboratorio 2\TP1\Entidades\obj\Debug\Entidades.dll
 C:\Users\Lucas\Documents\Tps Laboratorio 2\TP1\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Lucas\Desktop\tp_laboratorio_2\Hulej.Lucas.2°A.TP1\Entidades\bin\Debug\Entidades.dll
+C:\Users\Lucas\Desktop\tp_laboratorio_2\Hulej.Lucas.2°A.TP1\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Lucas\Desktop\tp_laboratorio_2\Hulej.Lucas.2°A.TP1\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Lucas\Desktop\tp_laboratorio_2\Hulej.Lucas.2°A.TP1\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\Desktop\tp_laboratorio_2\Hulej.Lucas.2°A.TP1\Entidades\obj\Debug\Entidades.dll
+C:\Users\Lucas\Desktop\tp_laboratorio_2\Hulej.Lucas.2°A.TP1\Entidades\obj\Debug\Entidades.pdb
