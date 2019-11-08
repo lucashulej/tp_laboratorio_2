@@ -1,0 +1,8 @@
+C:\Users\Lucas\Documents\UTN\Tps Laboratorio 2\TP3\Hulej.Lucas.2°A.TP3\Clases Abstractas\bin\Debug\Clases Abstractas.dll
+C:\Users\Lucas\Documents\UTN\Tps Laboratorio 2\TP3\Hulej.Lucas.2°A.TP3\Clases Abstractas\bin\Debug\Clases Abstractas.pdb
+C:\Users\Lucas\Documents\UTN\Tps Laboratorio 2\TP3\Hulej.Lucas.2°A.TP3\Clases Abstractas\bin\Debug\Excepciones.dll
+C:\Users\Lucas\Documents\UTN\Tps Laboratorio 2\TP3\Hulej.Lucas.2°A.TP3\Clases Abstractas\bin\Debug\Excepciones.pdb
+C:\Users\Lucas\Documents\UTN\Tps Laboratorio 2\TP3\Hulej.Lucas.2°A.TP3\Clases Abstractas\obj\Debug\EntidadesAbstractas.csprojAssemblyReference.cache
+C:\Users\Lucas\Documents\UTN\Tps Laboratorio 2\TP3\Hulej.Lucas.2°A.TP3\Clases Abstractas\obj\Debug\EntidadesAbstractas.csproj.CopyComplete
+C:\Users\Lucas\Documents\UTN\Tps Laboratorio 2\TP3\Hulej.Lucas.2°A.TP3\Clases Abstractas\obj\Debug\Clases Abstractas.dll
+C:\Users\Lucas\Documents\UTN\Tps Laboratorio 2\TP3\Hulej.Lucas.2°A.TP3\Clases Abstractas\obj\Debug\Clases Abstractas.pdb

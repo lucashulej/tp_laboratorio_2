@@ -1,0 +1,5 @@
+C:\Users\Lucas\Documents\UTN\Tps Laboratorio 2\TP3\Hulej.Lucas.2°A.TP3\Excepciones\bin\Debug\Excepciones.dll
+C:\Users\Lucas\Documents\UTN\Tps Laboratorio 2\TP3\Hulej.Lucas.2°A.TP3\Excepciones\bin\Debug\Excepciones.pdb
+C:\Users\Lucas\Documents\UTN\Tps Laboratorio 2\TP3\Hulej.Lucas.2°A.TP3\Excepciones\obj\Debug\Excepciones.dll
+C:\Users\Lucas\Documents\UTN\Tps Laboratorio 2\TP3\Hulej.Lucas.2°A.TP3\Excepciones\obj\Debug\Excepciones.pdb
+C:\Users\Lucas\Documents\UTN\Tps Laboratorio 2\TP3\Hulej.Lucas.2°A.TP3\Excepciones\obj\Debug\Excepciones.csprojAssemblyReference.cache

@@ -1,0 +1,15 @@
+C:\Users\Lucas\Documents\UTN\Tps Laboratorio 2\TP3\Hulej.Lucas.2°A.TP3\Salida Consola\obj\Debug\Salida Consola.csprojAssemblyReference.cache
+C:\Users\Lucas\Documents\UTN\Tps Laboratorio 2\TP3\Hulej.Lucas.2°A.TP3\Salida Consola\bin\Debug\Salida Consola.exe.config
+C:\Users\Lucas\Documents\UTN\Tps Laboratorio 2\TP3\Hulej.Lucas.2°A.TP3\Salida Consola\bin\Debug\Salida Consola.exe
+C:\Users\Lucas\Documents\UTN\Tps Laboratorio 2\TP3\Hulej.Lucas.2°A.TP3\Salida Consola\bin\Debug\Salida Consola.pdb
+C:\Users\Lucas\Documents\UTN\Tps Laboratorio 2\TP3\Hulej.Lucas.2°A.TP3\Salida Consola\bin\Debug\Clases Abstractas.dll
+C:\Users\Lucas\Documents\UTN\Tps Laboratorio 2\TP3\Hulej.Lucas.2°A.TP3\Salida Consola\bin\Debug\Clases Instanciables.dll
+C:\Users\Lucas\Documents\UTN\Tps Laboratorio 2\TP3\Hulej.Lucas.2°A.TP3\Salida Consola\bin\Debug\Excepciones.dll
+C:\Users\Lucas\Documents\UTN\Tps Laboratorio 2\TP3\Hulej.Lucas.2°A.TP3\Salida Consola\bin\Debug\Archivos.dll
+C:\Users\Lucas\Documents\UTN\Tps Laboratorio 2\TP3\Hulej.Lucas.2°A.TP3\Salida Consola\bin\Debug\Clases Abstractas.pdb
+C:\Users\Lucas\Documents\UTN\Tps Laboratorio 2\TP3\Hulej.Lucas.2°A.TP3\Salida Consola\bin\Debug\Clases Instanciables.pdb
+C:\Users\Lucas\Documents\UTN\Tps Laboratorio 2\TP3\Hulej.Lucas.2°A.TP3\Salida Consola\bin\Debug\Excepciones.pdb
+C:\Users\Lucas\Documents\UTN\Tps Laboratorio 2\TP3\Hulej.Lucas.2°A.TP3\Salida Consola\bin\Debug\Archivos.pdb
+C:\Users\Lucas\Documents\UTN\Tps Laboratorio 2\TP3\Hulej.Lucas.2°A.TP3\Salida Consola\obj\Debug\Salida Consola.csproj.CopyComplete
+C:\Users\Lucas\Documents\UTN\Tps Laboratorio 2\TP3\Hulej.Lucas.2°A.TP3\Salida Consola\obj\Debug\Salida Consola.exe
+C:\Users\Lucas\Documents\UTN\Tps Laboratorio 2\TP3\Hulej.Lucas.2°A.TP3\Salida Consola\obj\Debug\Salida Consola.pdb
