@@ -1,0 +1,6 @@
+C:\Users\Lucas\Desktop\TP4\Hulej.Lucas.2°A.TP3\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Lucas\Desktop\TP4\Hulej.Lucas.2°A.TP3\Entidades\bin\Debug\Entidades.dll.config
+C:\Users\Lucas\Desktop\TP4\Hulej.Lucas.2°A.TP3\Entidades\bin\Debug\Entidades.dll
+C:\Users\Lucas\Desktop\TP4\Hulej.Lucas.2°A.TP3\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Lucas\Desktop\TP4\Hulej.Lucas.2°A.TP3\Entidades\obj\Debug\Entidades.dll
+C:\Users\Lucas\Desktop\TP4\Hulej.Lucas.2°A.TP3\Entidades\obj\Debug\Entidades.pdb
