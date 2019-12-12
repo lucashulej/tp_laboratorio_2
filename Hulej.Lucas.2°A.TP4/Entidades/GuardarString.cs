@@ -23,8 +23,8 @@ namespace Entidades
                 using (StreamWriter writer = new StreamWriter(Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory) + "\\" + archivo, true))
                 {
                     writer.WriteLine(texto);
-                }
-                retorno = false;
+                    retorno = true;
+                } 
             }
             catch
             {

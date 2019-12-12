@@ -40,32 +40,24 @@ namespace MainCorreo
 
         private void ActualizarEstados()
         {
+            lstEstadoEntregado.Items.Clear();
+            lstEstadoEnViaje.Items.Clear();
+            lstEstadoIngresado.Items.Clear();
+
             foreach (Paquete item in correo.Paquetes)
             {
                 switch (item.Estado)
                 {
-                    case Paquete.EEstado.ingresado:
-                        if (!lstEstadoIngresado.Items.Contains(item.ToString()))
-                        {
-                            lstEstadoIngresado.Items.Add(item.ToString());
-                        }
+                    case Paquete.EEstado.Ingresado:
+                        lstEstadoIngresado.Items.Add(item);
                         break;
-
-                    case Paquete.EEstado.en_viaje:
-
-                        if (!lstEstadoEnViaje.Items.Contains(item.ToString()))
-                        {
-                            lstEstadoEnViaje.Items.Add(item.ToString());
-                            lstEstadoIngresado.Items.Clear();
-                        }
+                    case Paquete.EEstado.EnViaje:
+                        lstEstadoEnViaje.Items.Add(item);
                         break;
-
-                    case Paquete.EEstado.entregado:
-                        if (!lstEstadoEntregado.Items.Contains(item.ToString()))
-                        {
-                            lstEstadoEntregado.Items.Add(item.ToString());
-                            lstEstadoEnViaje.Items.Clear();
-                        }
+                    case Paquete.EEstado.Entregado:
+                        lstEstadoEntregado.Items.Add(item);
+                        break;
+                    default:
                         break;
                 }
             }
@@ -73,17 +65,22 @@ namespace MainCorreo
 
         private void MostrarInformacion<T>(IMostrar<T> elemento)
         {
-            if (elemento != null)
+            string aux = "";
+
+            if (Object.Equals(elemento, null) == false)
             {
-                if (elemento is Paquete)
+                this.rtbMostrar.Text = elemento.MostrarDatos(elemento);
+
+                try
                 {
-                    this.rtbMostrar.Text = ((Paquete)elemento).ToString();
+                    aux = elemento.MostrarDatos(elemento);
+                    aux.Guardar("salida.txt");
                 }
-                else if (elemento is Correo)
+                catch (Exception e)
                 {
-                    this.rtbMostrar.Text = ((Correo)elemento).MostrarDatos((Correo)elemento);
+                    MessageBox.Show(e.Message);
                 }
-                this.rtbMostrar.Text.Guardar("salida");
+
             }
         }
 
@@ -96,6 +93,7 @@ namespace MainCorreo
         {
             Paquete paquete = new Paquete(txtDireccion.Text, mtxtTrackingID.Text);
             paquete.InformaEstado += paq_InformaEstado;
+
             try
             {
                 this.correo += paquete;
@@ -104,6 +102,8 @@ namespace MainCorreo
             {
                 MessageBox.Show(exception.Message);
             }
+
+            this.ActualizarEstados();
         }
 
         private void btnMostrarTodos_Click(object sender, EventArgs e)

@@ -32,7 +32,7 @@ namespace Entidades
         {
             this.DireccionEntrega = direccionEntrega;
             this.TrackingID = trackingID;
-            this.Estado = EEstado.ingresado;
+            this.Estado = EEstado.Ingresado;
         }
 
         #endregion
@@ -86,7 +86,6 @@ namespace Entidades
 
         #endregion
 
-
         #region Metodos
        
         /// <summary>
@@ -119,7 +118,6 @@ namespace Entidades
         /// <returns>retorna un string con todos los datos de un paquete</returns>
         public string MostrarDatos(IMostrar<Paquete> elemento)
         {
-
             return string.Format("{0} para {1} ({2})", ((Paquete)elemento).TrackingID, ((Paquete)elemento).DireccionEntrega, ((Paquete)elemento).Estado);
         }
 
@@ -137,20 +135,25 @@ namespace Entidades
         /// </summary>
         public void MockCicloDeVida()
         {
-            do
+            while (this.estado != EEstado.Entregado)
             {
-                this.InformaEstado.Invoke(this, null);
-                Thread.Sleep(4000);
-                if (this.Estado == EEstado.ingresado)
+
+                switch (this.estado)
                 {
-                    this.Estado = EEstado.en_viaje;
+                    case EEstado.Ingresado:
+                        Thread.Sleep(4000);
+                        this.Estado = EEstado.EnViaje;
+                        this.InformaEstado(this, EventArgs.Empty);
+                        break;
+                    case EEstado.EnViaje:
+                        Thread.Sleep(4000);
+                        this.Estado = EEstado.Entregado;
+                        this.InformaEstado(this, EventArgs.Empty);
+                        break;
+                    default:
+                        break;
                 }
-                else
-                {
-                    this.Estado = EEstado.entregado;
-                }
-            } while (this.Estado != EEstado.entregado);
-            this.InformaEstado.Invoke(this, null);
+            }
             try
             {
                 PaqueteDAO.Insertar(this);
@@ -166,9 +169,9 @@ namespace Entidades
 
         public enum EEstado
         {
-            ingresado,
-            en_viaje,
-            entregado
+            Ingresado,
+            EnViaje,
+            Entregado
         }
 
         #endregion

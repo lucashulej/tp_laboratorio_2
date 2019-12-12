@@ -16,7 +16,7 @@ namespace Entidades
 
         #endregion
 
-        #region Constructores
+        #region ConstructBueores
 
         /// <summary>
         /// Constructor por defecto de la clase Correo
@@ -28,7 +28,6 @@ namespace Entidades
         }
 
         #endregion
-
 
         #region Propiedades
 
@@ -52,29 +51,6 @@ namespace Entidades
         #region Methods
 
         /// <summary>
-        /// Sobrecarga del operador + que agrega un paquete a un correo si este no se encuentra en el mismo
-        /// </summary>
-        /// <param name="c"></param>
-        /// <param name="p"></param>
-        /// <returns>retorna el correo</returns>
-        public static Correo operator +(Correo c, Paquete p)
-        {
-            foreach (Paquete item in c.Paquetes)
-            {
-                if (item == p)
-                {
-                    throw new TrackingIdRepetidoException("Paquete repetido");
-                }
-            }
-            c.Paquetes.Add(p);
-            Thread hilo = new Thread(p.MockCicloDeVida);
-            c.mockPaquetes.Add(hilo);
-            hilo.Start();
-
-            return c;
-        }
-
-        /// <summary>
         /// Elimina todos los hilos que sigan activos
         /// </summary>
         public void FinEntregas()
@@ -96,15 +72,49 @@ namespace Entidades
         public string MostrarDatos(IMostrar<List<Paquete>> elementos)
         {
             StringBuilder retorno = new StringBuilder();
-            if (elementos is Correo)
+
+            foreach (Paquete aux in ((Correo)elementos).Paquetes)
             {
-                foreach (Paquete aux in ((Correo)elementos).Paquetes)
+                retorno.AppendFormat("{0} para {1} ({2})", aux.TrackingID, aux.DireccionEntrega, aux.Estado.ToString());
+                retorno.AppendLine();
+            }
+
+            return retorno.ToString();
+        }
+
+        /// <summary>
+        /// Sobrecarga del operador + que agrega un paquete a un correo si este no se encuentra en el mismo
+        /// </summary>
+        /// <param name="c"></param>
+        /// <param name="p"></param>
+        /// <returns>retorna el correo</returns>
+        public static Correo operator +(Correo c, Paquete p)
+        {
+            bool aux = false;
+
+            foreach (Paquete item in c.Paquetes)
+            {
+                if (item == p)
                 {
-                    retorno.AppendFormat("{0} para {1} ({2})", aux.TrackingID, aux.DireccionEntrega,aux.Estado.ToString());
-                    retorno.AppendLine();
+                    aux = true;
+                    break;
+                    
                 }
             }
-            return retorno.ToString();
+
+            if(aux == false)
+            {
+                c.Paquetes.Add(p);
+                Thread hilo = new Thread(p.MockCicloDeVida);
+                c.mockPaquetes.Add(hilo);
+                hilo.Start();
+            }
+            else
+            {
+                throw new TrackingIdRepetidoException("El " + p.TrackingID.ToString() + " ya se encuentra en la lista de envios");
+            }
+
+            return c;
         }
 
         #endregion

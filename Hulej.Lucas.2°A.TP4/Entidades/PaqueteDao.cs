@@ -26,9 +26,6 @@ namespace Entidades
         {
             PaqueteDAO.conexion = new SqlConnection(Properties.Settings.Default.Conexion);
             PaqueteDAO.comando = new SqlCommand();
-
-            PaqueteDAO.comando.CommandType = CommandType.Text;
-            PaqueteDAO.comando.Connection = PaqueteDAO.conexion;
         }
 
         #endregion
@@ -44,6 +41,9 @@ namespace Entidades
         {
          
             bool retorno = false;
+
+            PaqueteDAO.comando.CommandType = CommandType.Text;
+            PaqueteDAO.comando.Connection = PaqueteDAO.conexion;
             PaqueteDAO.comando.CommandText = string.Format("INSERT INTO dbo.Paquetes (direccionEntrega,trackingID,alumno) VALUES('{0}','{1}','{2}')", p.DireccionEntrega, p.TrackingID, "Hulej Lucas");
             
             try
@@ -53,8 +53,7 @@ namespace Entidades
                 {
                     retorno = true;
                 }
-                
- 
+
             }
             catch (Exception exception)
             {
@@ -64,6 +63,7 @@ namespace Entidades
             {
                 PaqueteDAO.conexion.Close();
             }
+
             return retorno;
         }
 
